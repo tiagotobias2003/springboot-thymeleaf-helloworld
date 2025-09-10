@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--from bootstrap website CDN CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Listagem de Tarefas</title>
+</head>
+<body>
+    <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Nome da Tarefa</th>
+      <th scope="col">Data de Execução</th>
+      <th scope="col">#</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr data-th-each="task : ${taskList}">
+      <td data-th-text="${task.id}"></td>
+      <td data-th-text="${task.name}"></td>
+      <td data-th-text="${{task.date}}"></td> <!--usar {{xx}} para aplicar formato do modelo-->
+      <td><a th:href="@{'/edit/'+${task.id}}">Editar</a></td>
+    </tr>
+  </tbody>
+</table>
+<a href="/create">Cadastro</a>
+</body>
+</html>
