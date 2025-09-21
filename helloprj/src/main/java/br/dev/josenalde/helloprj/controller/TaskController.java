@@ -30,6 +30,9 @@ public class TaskController {
 
     @PostMapping("/create")
     public String create(Task task) {
+        System.out.println("########################");
+        System.out.println(task);
+        System.out.println("########################");
         if (task.getId() != null) {
             Task taskFind = taskList.stream().filter(taskItem -> task.getId().equals(task.getId())).findFirst().get();
             taskList.set(taskList.indexOf(taskFind), task);
