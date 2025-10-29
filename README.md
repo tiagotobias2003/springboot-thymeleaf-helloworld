@@ -1,4 +1,5 @@
 # Spring Boot + Thymeleaf - Tutorial Completo
+![e000b7b3b37659a771d0151dc453bc0a](https://github.com/user-attachments/assets/b6151cea-54de-42c8-9810-6d0c25cfee92)
 
 Este projeto é um exemplo prático e didático de como utilizar o **Thymeleaf** como engine de templates no Spring Boot. O projeto implementa um sistema simples de gerenciamento de tarefas (CRUD) para demonstrar as principais funcionalidades do Thymeleaf.
 
