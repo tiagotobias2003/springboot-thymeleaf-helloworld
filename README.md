@@ -233,4 +233,4 @@ Este projeto é de uso educacional e está disponível sob a licença MIT.
 
 ---
 
-<img src="./dog.jpg" alt="Meu Dog" width="300">
+<img src="/dog.jpg" alt="Meu Dog" width="300">
