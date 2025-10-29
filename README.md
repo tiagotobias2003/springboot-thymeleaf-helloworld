@@ -230,3 +230,7 @@ Este projeto é de uso educacional e está disponível sob a licença MIT.
 ---
 
 **Desenvolvido com ❤️ para fins educacionais**
+
+---
+
+![Meu Dog](./dog.jpg) 
